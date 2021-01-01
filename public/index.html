@@ -1,0 +1,286 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>DR.Sundaram Arulrhaj Trust</title>
+    <link href="styles/Style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+<!--    //--><![CDATA[//><!--
+        sfHover = function () {
+            var sfEls = document.getElementById("nav").getElementsByTagName("LI");
+            for (var i = 0; i < sfEls.length; i++) {
+                sfEls[i].onmouseover = function () {
+                    this.className += " sfhover";
+                }
+                sfEls[i].onmouseout = function () {
+                    this.className = this.className.replace(new RegExp(" sfhover\\b"), "");
+                }
+            }
+        }
+        if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+        //--><!]]>
+    </script>
+    <!--Start Slider -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.cycle.all.2.74.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.slideshow').cycle({
+                fx: 'fade'
+            });
+        });
+    </script>
+    <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+    <!--<script type="text/javascript" src="js/easySlider1.5.js"></script>-->
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            jQuery('#mycarousel').jcarousel({
+                row3: 'circular'
+            });
+        });
+    </script>
+    <!--End Slider -->
+
+    <script type="text/javascript">
+
+        function PopUp(hideOrshow) {
+            if (hideOrshow == 'hide') document.getElementById('ac-wrapper').style.display = "none";
+            else document.getElementById('ac-wrapper').removeAttribute('style');
+        } /*window.onload = function () { setTimeout(function () { PopUp('show'); }, 50); }*/
+    </script>
+
+    <style type="text/css">
+        .slideshow {
+            /* position:relative;
+            z-index:1;*/
+            margin-left: 0px;
+            margin-top: 0px;
+            height: 341px;
+        }
+
+        #ac-wrapper {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(29, 29, 29, .7);
+            z-index: 999999;
+        }
+
+        #popup {
+            font-family: Arial, Helvetica, sans-serif;
+            width: 100%;
+            text-align: center;
+            background: none; /*border: 3px solid #ccc; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;*/
+            position: relative;
+            margin: 100px auto 0px auto;
+        }
+
+        #popuprow {
+            margin-top: 0px;
+            width: 100%;
+        }
+
+            #popuprow #box1 {
+                float: left;
+                width: 30%;
+            }
+
+            #popuprow #box2 {
+                float: left;
+                width: 40%;
+            }
+
+        .popspan {
+            cursor: pointer;
+            width:100%;
+        }
+
+        .clearfix {
+            visibility: hidden;
+            font-size: 0;
+            content: "";
+            clear: both;
+            height: 0;
+            overflow: hidden;
+            overflow-y: hidden;
+        }
+
+        .closebtn {
+            color: #FFF;
+            float: right;
+            padding-right: 5px;
+            padding-top: 5px;
+        }
+
+        .img-responsive-popup {
+            width: 100%;
+        }
+    </style>
+
+
+
+
+</head>
+<body>
+    <div id="ac-wrapper">
+        <div id="popup">
+            <div id="popuprow">
+                <div id="box1"><br /></div>
+                <div id="box2" style="    background-color: #eaeaea; border: 3px solid #094f64;">
+                    <span onclick="PopUp('hide')" class="popspan"><span class="closebtn"> <img src="images/close.png" alt="img" /></span></span>
+                    <br />
+                    <div>
+                        <img src="images/founder.jpg" class="pngfix" alt="img" style="border: 1px solid #979797;"/>
+                        <h2 style="padding:0px; color:#094f64; text-transform:uppercase">
+                            <br />
+                            DR. S. ARULRHAJ <br />
+                            Health, Education and Research Foundation
+                        </h2>
+                        <br />
+                    </div>
+                </div>
+                <div id="box1"></div>
+            </div>
+        </div>
+    </div>
+
+    <div style="width:100%;">
+        <div style="width:1000px;margin:auto;">
+
+            <!--header banner -->
+            <div id="banner">
+                <img src="images/left_logo.jpg" id="banner_left_img" class="pngfix" alt="" border="0" />
+                <div id="banner_text_div">Dr. S. ARULRHAJ Health, Education and Research Foundation</div>
+                <img src="images/right_side_logo_.jpg" class="pngfix" id="banner_right_img" alt="" border="0" />
+            </div>
+
+            <br style="clear:both;" />
+
+            <!-- menu -->
+            <div id="topnavi">
+                <ul id="nav">
+                    <li style="width:150px !important;">
+                        <a href="index.html" style="border-right:solid 1px #EAFAFF;color:#2B3092;margin-left:33px;width:100px;">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                        <ul style="margin-left:23px; width:200px !important;">
+                            <li><a href="chairmanmsg.html">Chairman&nbsp;Message</a></li>
+                        </ul>
+                    </li>
+                    <li style="width:150px !important;">
+                        <a href="aboutus.html" style="border-right:solid 1px #EAFAFF;margin-left:33px;width:120px;">About Us</a>
+                        <ul style="margin-left:22px; width:200px !important;">
+                            <li><a href="aboutus.html#orgprofile">Our&nbsp;Organisation</a></li>
+                            <li><a href="aboutus.html#vision">Vision</a></li>
+                            <li><a href="aboutus.html#mission">Mission</a></li>
+                        </ul>
+                    </li>
+                    <li style="width:150px !important;">
+                        <a href="health.html" style="border-right:solid 1px #EAFAFF;margin-left:13px; width:150px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Health</a>
+                        <ul style="margin-left:40px; width:200px !important;">
+                            <li><a href="health.html#sah">SAH</a></li>
+                            <li><a href="health.html#camp">Camp</a></li>
+                            <li><a href="health.html#earc">EARC</a></li>
+                            <li><a href="health.html#ruralhealth">Rural&nbsp;health</a></li>
+                            <li><a href="health.html#mobileclinic">Mobile&nbsp;clinic</a></li>
+                            <li><a href="health.html#awarenesspublic">Awareness&nbsp;public</a></li>
+                        </ul>
+                    </li>
+                    <li style="width:150px !important;">
+                        <a href="education.html" style="border-right:solid 1px #EAFAFF;margin-left:43px;width:180px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Education</a>
+                        <ul style="margin-left:70px; width:295px !important;">
+                            <li><a href="education.html#differentlyabledschool">Different&nbsp;abled&nbsp;school</a></li>
+                            <li><a href="education.html#splresibridgecourse">Special&nbsp;Residential&nbsp;Bridge&nbsp;course</a></li>
+                            <li><a href="education.html#communitycollege">Community&nbsp;College</a></li>
+                            <li><a href="education.html">PG-DFM</a></li>
+                            <li><a href="education.html">PGDEM</a></li>
+                        </ul>
+                    </li>
+                    <li style="width:170px !important;">
+                        <a href="future.html" style="border-right:solid 1px #EAFAFF;margin-left:43px;width:170px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Future</a>
+                        <ul style="margin-left:87px; width:200px !important;">
+                            <li><a href="future.html">Chronic&nbsp;care&nbsp;centre</a></li>
+                            <li><a href="future.html">Old&nbsp;age&nbsp;home</a></li>
+                            <li><a href="future.html">Health&nbsp;University</a></li>
+                        </ul>
+                    </li>
+                    <li style="width:150px !important;"><a href="contactus.html" style="margin-left:43px;width:120px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact&nbsp;Us</a></li>
+                </ul>
+            </div>
+
+            <br style="clear:both;" />
+
+            <!-- Slide show -->
+            <div class="slicer">
+                <div class="gallery">
+                    <div class="slideshow">
+                        <img src="images/gif_banner.gif" height="341" width="1000" />
+                    </div>
+                </div>
+            </div>
+
+            <!--<br style="clear:both;" />-->
+            <!-- boxes -->
+            <div id="row2">
+                <div id="box1">
+                    <span>Vision</span><br />
+                    <img src="images/vision.png" style="float:left;padding-top:4px;padding-right:14px;" height="110" width="110" />
+                    <p>Health care to reach the unreached.</p>
+                    <p>Unable the differently abled population.</p><br />
+                    <!--<p>Fusce vitae dolor ut massa gravida. Sed semper purus quis est hendrerit.  Duis dolor.In hac habitasse platea dictumst. </p><br />-->
+                    <a href="aboutus.html#vision" class="more">more...</a>
+                </div>
+                <div id="box2">
+                    <span>Mision</span><br />
+                    <img src="images/mission.png" style="float:left;padding-top:4px;padding-right:14px;" height="110" width="110" />
+                    <p>
+                        Affordable, available, accessible Health Care to all.
+                    </p>
+                    <p>Rural promote.</p> <br /> <br />
+                    <a href="aboutus.html#mission" class="more">more...</a>
+                </div>
+                <div id="box3">
+                    <span>Values</span><br />
+                    <img src="images/values.png" style="float:left;padding-top:4px;padding-right:14px;" height="110" width="110" />
+                    <p>Care, Commitment, Charity & Quality Services... &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; </p><br />
+                    <a href="aboutus.html" class="more">more...</a>
+                </div>
+            </div>
+
+            <br style="clear:both;" />
+
+            <div id="row3">
+                <div id="box1">
+                    <span class="row3_box1and2_heading">Chairman Message</span><br />
+                    <p id="row3_box1_p">
+                        Warm seasons & health greeting from Dr.S.Arulrhaj Health, Education & Research Foundation Tuticorin.  Being located in the Southern most corner of India, a Family of doctors have committed to offer affordable & accessible health care to the community. And also after educational activities to the marginalized children in the villages & health professionals. With this objective the above charitable Organization, was founded in 1995.
+                    </p>
+                    <a href="chairmanmsg.html#chairmanmsg" class="more" style="padding-right:15px;color:#000000 !important;	line-height:30px;">more...</a>
+                </div>
+
+                <div id="row3_box2">
+                    <span class="row3_box1and2_heading">Let Us Donate</span><br />
+                    <div id="row3_box2_div">
+                        <div style="padding-bottom:0px;padding-top:98px;"><span id="row3_box2_span">Call : +91 9442184478</span></div>
+                    </div>
+                </div>
+
+                <br style="clear:both;" />
+                <br style="clear:both;" />
+
+            </div>
+
+
+            <div id="footer">
+                <span id="copyright">© Copyright 2012. DR.Sundaram Arulrhaj Trust. All Rights Reserved</span>
+
+                <span id="poweredby">
+                    <a href="https://www.sathyainfo.com/" target="_blank">Powered by Sathya</a>
+                </span>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
